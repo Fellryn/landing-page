@@ -142,3 +142,11 @@ ul {
     border: #3882F6 2px solid;
     border-radius: 10px;
 }
+
+.third {
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: #E5E7EB;
+}
