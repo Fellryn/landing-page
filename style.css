@@ -10,6 +10,7 @@ body {
 
 h1,
 h2,
+h3,
 p {
     padding: 0;
     margin: 0;
@@ -24,6 +25,13 @@ h1 {
 h2 {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
 }
 
 .subtext {
@@ -98,4 +106,39 @@ ul {
     background-color: #8d8996;
     color: #E5E7EB;
     min-width: 500px;
+}
+
+.second {
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.information {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.card-box {
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    border: #3882F6 2px solid;
+    border-radius: 10px;
 }
