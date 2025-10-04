@@ -150,3 +150,36 @@ ul {
     margin-bottom: 50px;
     background-color: #E5E7EB;
 }
+
+.quote {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 180px;
+}
+
+.quote-main {
+    font-size: 34px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-secondary {
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.fourth {
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.action {
+    background-color: #3882F6;
+    border-radius: 20px;
+}
