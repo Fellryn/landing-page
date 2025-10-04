@@ -181,5 +181,37 @@ ul {
 
 .action {
     background-color: #3882F6;
-    border-radius: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 64px 0px;
 }
+
+.action-title {
+    font-size: 28px;
+    color: white;
+}
+
+.action-subtext {
+    font-size: 16px;
+    color: white;
+}
+
+.signup-button.white-border {
+    border: 2px white solid;
+}
+
+.fifth {
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.footer {
+    color: #E5E7EB;
+    font-size: 16px;
+    text-align: center;
+    padding: 32px 0px;
+}
+
